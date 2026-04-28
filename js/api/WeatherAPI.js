@@ -3,7 +3,7 @@ export default class WeatherAPI {
        
         this.apiKey = '366095b38e377da219b0d81eb3837b8e'
         this.baseURL = 'https://api.openweathermap.org/data/2.5';
-        this.isTestMode = true; // ✅ Modo prueba activado por defecto
+        this.isTestMode = false; //
         this.language = 'es';
         this.units = 'metric'; // Celsius
         this.retryCount = 0;
