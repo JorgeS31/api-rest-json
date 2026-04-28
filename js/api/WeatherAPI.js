@@ -1,7 +1,8 @@
+
 export default class WeatherAPI {
     constructor() {
-       
-        this.apiKey = '366095b38e377da219b0d81eb3837b8e'
+
+        this.apiKey = '366095b38e377da219b0d81eb3837b8e';
         this.baseURL = 'https://api.openweathermap.org/data/2.5';
         this.isTestMode = false; //
         this.language = 'es';
